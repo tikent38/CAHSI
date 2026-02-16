@@ -1,8 +1,7 @@
 format: jb-book
-root: content
+root: content/Grover_Activitycopy   # the main landing notebook
 
 sections:
   - title: "Quantum Algorithms"
     sections:
-      - file: content/Grover_Activitycopy
       - file: content/QFT
