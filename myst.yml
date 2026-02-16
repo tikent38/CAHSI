@@ -1,6 +1,15 @@
-# myst.yml - Jupyter Book configuration
-config:
-  version: 1
-
-title: "CAHSI Jupyter Book"
-author: "Timothy Kent"
+#See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 54eaf0a7-041e-4c9b-9f8b-fc2444adef5f
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
