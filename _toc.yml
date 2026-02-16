@@ -6,3 +6,6 @@ sections:
     sections:
       - file: content/QFT
       - file: content/Grover_Activitycopy 
+    - title: "Assignments"
+        sections:
+          - file: content/waaaa
