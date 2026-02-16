@@ -1,3 +1,11 @@
+# myst.yml - Jupyter Book configuration
+config:
+  version: 1
+
+# Optional site info
+title: "CAHSI Jupyter Book"
+author: "Timothy Kent"
+
 format: jb-book
 root: content/Grover_Activitycopy   # your first notebook
 
