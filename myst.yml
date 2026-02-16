@@ -1,15 +1,8 @@
-# See docs at: https://mystmd.org/guide/frontmatter
-version: 1
-project:
-  id: 54eaf0a7-041e-4c9b-9f8b-fc2444adef5f
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
-site:
-  template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+format: jb-book
+root: content/Grover_Activitycopy   # your first notebook
+
+sections:
+  - title: "Quantum Algorithms"
+    sections:
+      - file: content/QAEcopy        # your fixed notebook
+      - file: content/qft/QFTcopy    # QFT notebook
