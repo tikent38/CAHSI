@@ -1,5 +1,5 @@
 format: jb-book
-root: content/
+root: content
 
 sections:
   - title: "Quantum Algorithms"
