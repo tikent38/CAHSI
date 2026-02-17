@@ -5,7 +5,8 @@ sections:
   - title: "Quantum Algorithms"
     sections:
       - file: content/QFT
-      - file: content/Grover_Activitycopy 
+      - file: content/Grover_Activitycopy
+      - file: content/p1
     - title: "Assignments"
         sections:
           - file: content/waaaa
