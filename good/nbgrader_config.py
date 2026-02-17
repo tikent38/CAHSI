@@ -6,7 +6,7 @@ c = get_config()
 
 # You only need this if you are running nbgrader on a shared
 # server set up.
-c.CourseDirectory.course_id = "assignments"
+c.CourseDirectory.course_id = "good"
 
 c.IncludeHeaderFooter.header = "source/header.ipynb"
 
@@ -1177,8 +1177,8 @@ c = get_config()  #noqa
 
 ## A dictionary mapping each Jupyter kernel's name to the function that is used
 #  to sanitize the output from the kernel within InstantiateTests.
-#  Default: {'ir': <function InstantiateTests.<lambda> at 0x104dc7c40>, 'python': <function InstantiateTests.<lambda> at 0x104e63f60>, 'python3': <function InstantiateTests.<lambda> at 0x104e74220>}
-# c.InstantiateTests.sanitizers = {'ir': <function InstantiateTests.<lambda> at 0x104dc7c40>, 'python': <function InstantiateTests.<lambda> at 0x104e63f60>, 'python3': <function InstantiateTests.<lambda> at 0x104e74220>}
+#  Default: {'ir': <function InstantiateTests.<lambda> at 0x107c2bc40>, 'python': <function InstantiateTests.<lambda> at 0x107cc7f60>, 'python3': <function InstantiateTests.<lambda> at 0x107cd8220>}
+# c.InstantiateTests.sanitizers = {'ir': <function InstantiateTests.<lambda> at 0x107c2bc40>, 'python': <function InstantiateTests.<lambda> at 0x107cc7f60>, 'python3': <function InstantiateTests.<lambda> at 0x107cd8220>}
 
 ## Whether to add a salt to digested answers
 #  Default: True
