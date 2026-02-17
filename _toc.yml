@@ -7,6 +7,6 @@ sections:
       - file: content/QFT
       - file: content/Grover_Activitycopy
       - file: content/p1
-      - file: content/good/release/p2
+      - file: content/good/release/p2/p2
     launch_buttons:
       binder: true
